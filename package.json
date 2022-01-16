@@ -2,6 +2,9 @@
 	"name": "synonyms_project_frontend",
 	"version": "0.1.0",
 	"private": true,
+	"resolutions": {
+		"mini-css-extract-plugin": "2.4.5"
+	},
 	"dependencies": {
 		"axios": "^0.24.0",
 		"react": "^17.0.2",
@@ -36,8 +39,5 @@
 		"@testing-library/jest-dom": "^5.16.1",
 		"@testing-library/react": "^12.1.2",
 		"@testing-library/user-event": "^13.5.0"
-	},
-	"overrides": {
-		"mini-css-extract-plugin": "2.4.5"
 	}
 }
