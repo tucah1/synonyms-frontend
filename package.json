@@ -2,14 +2,12 @@
 	"name": "synonyms_project_frontend",
 	"version": "0.1.0",
 	"private": true,
-	"resolutions": {
-		"mini-css-extract-plugin": "2.4.5"
-	},
 	"dependencies": {
 		"axios": "^0.24.0",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
-		"react-scripts": "5.0.0"
+		"react-scripts": "5.0.0",
+		"mini-css-extract-plugin": "2.4.5"
 	},
 	"scripts": {
 		"start": "react-scripts start",
