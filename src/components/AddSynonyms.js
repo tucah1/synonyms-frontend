@@ -54,7 +54,7 @@ export default class AddSynonyms extends PureComponent {
 	render() {
 		return (
 			<div>
-				<h3 className='h3'>Add Synonyms</h3>
+				<h2 className='h2'>Add Synonyms</h2>
 				<form onSubmit={(e) => this.handleSubmit(e)}>
 					<input
 						type='text'

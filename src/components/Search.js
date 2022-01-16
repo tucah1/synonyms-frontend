@@ -30,7 +30,7 @@ export default class Search extends PureComponent {
 	render() {
 		return (
 			<div>
-				<h2 className='h2'>Search Synonyms: </h2>
+				<h2 className='h2'>Search Synonyms </h2>
 				<SearchInput inputChange={this.handleSearchChange} />
 				<h4 className='h4'>Results: </h4>
 				<Synonyms
